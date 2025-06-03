@@ -9,96 +9,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <button id="btn-translate">
+        <i class="fas fa-language"></i>
+        <span class="tooltip">Traducir a Inglés</span>
+    </button>
 
     <section id="portada">
-        <h1>Carlos Juveen</h1>
-        <p>Bienvenido a mi página personal. Aquí comparto un poco sobre mí, mis intereses y cómo contactarme.</p>
+        <div class="name-container">
+            <h1 class="traducible">Carlos Juven<span class="blinking-cursor">_</span></h1>
+        </div>
+        <p class="traducible">Bienvenido a mi página personal. Aquí comparto un poco sobre mí, mis intereses y cómo contactarme.</p>
     </section>
 
     <nav class="nav-container">
-        <button class="nav-tab active" data-target="hobbies">Hobbies</button>
-        <button class="nav-tab" data-target="series">Series</button>
-        <button class="nav-tab" data-target="peliculas">Películas</button>
+        <button class="nav-tab active traducible" data-target="hobbies">Hobbies</button>
+        <button class="nav-tab traducible" data-target="series">Series</button>
+        <button class="nav-tab traducible" data-target="peliculas">Películas</button>
     </nav>
 
     <div id="contenido-principal">
-
         <section id="hobbies" class="content-section active">
-            <h2>Mis Hobbies</h2>
+            <h2 class="traducible">Mis Hobbies</h2>
             <ul class="content-list">
                 <li>
-                    <h3><i class="fas fa-guitar"></i> Tocar la guitarra</h3>
-                    <p>Me gusta mucho la musica y me gusta sacar canciones mientras las escucho. Me gusta aprender y notar la diferencia a medida que aprendo</p>
+                    <h3><i class="fas fa-guitar"></i> <span class="traducible">Tocar la guitarra</span></h3>
+                    <p class="traducible">Me gusta mucho la musica y me gusta sacar canciones mientras las escucho. Me gusta aprender y notar la diferencia a medida que aprendo</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-code"></i> Programar</h3>
-                    <p>Disfruto crear aplicaciones y soluciones tecnológicas. La programación es mi pasión y profesión, siempre aprendiendo nuevas tecnologías.</p>
+                    <h3><i class="fas fa-code"></i> <span class="traducible">Programar</span></h3>
+                    <p class="traducible">Disfruto crear aplicaciones y soluciones tecnológicas. La programación es mi pasión y profesión, siempre aprendiendo nuevas tecnologías.</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-chess"></i> Ajedrez</h3>
-                    <p>Practico y juego ajedrez desde que tengo memoria. Me gusta por que mantiene mi mente activa y pienso que hay belleza en las partidas</p>
+                    <h3><i class="fas fa-chess"></i> <span class="traducible">Ajedrez</span></h3>
+                    <p class="traducible">Practico y juego ajedrez desde que tengo memoria. Me gusta por que mantiene mi mente activa y pienso que hay belleza en las partidas</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-gamepad"></i> Videojuegos</h3>
-                    <p>Me gusta jugar videojuegos, especialmente los de estrategia. Disfruto de tanto juegos con amigos, como de juegos single player.</p>
+                    <h3><i class="fas fa-gamepad"></i> <span class="traducible">Videojuegos</span></h3>
+                    <p class="traducible">Me gusta jugar videojuegos, especialmente los de estrategia. Disfruto de tanto juegos con amigos, como de juegos single player.</p>
                 </li>
             </ul>
         </section>
 
         <section id="series" class="content-section">
-            <h2>Series Favoritas</h2>
+            <h2 class="traducible">Series Favoritas</h2>
             <ul class="content-list">
                 <li>
-                    <h3><i class="fas fa-space-shuttle"></i> Star Trek</h3>
-                    <p>Es una de las series favoritas de mi infancia, ya que mi papa es muy fan de ella.</p>
+                    <h3><i class="fas fa-space-shuttle"></i> <span class="traducible">Star Trek</span></h3>
+                    <p class="traducible">Es una de las series favoritas de mi infancia, ya que mi papa es muy fan de ella.</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-pepper-hot"></i> Peaky Blinders</h3>
-                    <p>La ultima serie que me vi, creo que tiene una historia muy buena y unos actores muy muy buenos.</p>
+                    <h3><i class="fas fa-hat-cowboy"></i> <span class="traducible">Peaky Blinders</span></h3>
+                    <p class="traducible">La ultima serie que me vi, creo que tiene una historia muy buena y unos actores muy muy buenos.</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-ring"></i> The Sopranos</h3>
-                    <p>Yo diria que es mi serie favorita por todos sus detalles, su historia y sus personajes.</p>
+                    <h3><i class="fas fa-user-secret"></i> <span class="traducible">The Sopranos</span></h3>
+                    <p class="traducible">Yo diria que es mi serie favorita por todos sus detalles, su historia y sus personajes.</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-pirate"></i> One Piece</h3>
-                    <p>Una historia que empece hace mas de once años. Increible como el autor nunca deja de sorpredernos.</p>
+                    <h3><i class="fas fa-skull-crossbones"></i> <span class="traducible">One Piece</span></h3>
+                    <p class="traducible">Una historia que empece hace mas de once años. Increible como el autor nunca deja de sorpredernos.</p>
                 </li>
-                 <li>
-                    <h3><i class="fas fa-dna"></i> Full Metal Alchemist</h3>
-                    <p>Mi anime favorito, me gusta mucho su historia y sus personajes. la he visto varias veces.</p>
+                <li>
+                    <h3><i class="fas fa-dna"></i> <span class="traducible">Full Metal Alchemist</span></h3>
+                    <p class="traducible">Mi anime favorito, me gusta mucho su historia y sus personajes. la he visto varias veces.</p>
                 </li>
             </ul>
         </section>
 
         <section id="peliculas" class="content-section">
-            <h2>Películas Favoritas</h2>
+            <h2 class="traducible">Películas Favoritas</h2>
             <ul class="content-list">
                 <li>
-                    <h3><i class="fas fa-gem"></i> Snatch</h3>
-                    <p>Mi pelicula favorita, me gustan mucho sus dialogos, su musica y sus actores. Una pelicula que me hace reir cada vez que la veo y ademas me atrapa en su historia</p>
+                    <h3><i class="fas fa-gem"></i> <span class="traducible">Snatch</span></h3>
+                    <p class="traducible">Mi pelicula favorita, me gustan mucho sus dialogos, su musica y sus actores. Una pelicula que me hace reir cada vez que la veo y ademas me atrapa en su historia</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-ring"></i> Señor de los anillos</h3>
-                    <p>Es mi universo de fantasia favorito. Me he leido los libros una y otra vez, asi como tambien sus otras obras. Las peliculas son tan buena como los libros</p>
+                    <h3><i class="fas fa-ring"></i> <span class="traducible">Señor de los anillos</span></h3>
+                    <p class="traducible">Es mi universo de fantasia favorito. Me he leido los libros una y otra vez, asi como tambien sus otras obras. Las peliculas son tan buena como los libros</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-drum"></i> Whiplash</h3>
-                    <p>Se me hace una pelicula tan simple, pero a la vez tan compleja y entretenida. Me gustan los personajes y el mensaje que quiere transmitir con cada uno de ellos</p>
+                    <h3><i class="fas fa-drum"></i> <span class="traducible">Whiplash</span></h3>
+                    <p class="traducible">Se me hace una pelicula tan simple, pero a la vez tan compleja y entretenida. Me gustan los personajes y el mensaje que quiere transmitir con cada uno de ellos</p>
                 </li>
                 <li>
-                    <h3><i class="fas fa-space-shuttle"></i> Inception</h3>
-                    <p>Una de las mejores peliculas que he visto tambien, me gusta mucho el concepto. Mi totem seria un peon de ajedrez</p>
+                    <h3><i class="fas fa-hourglass-half"></i> <span class="traducible">Inception</span></h3>
+                    <p class="traducible">Una de las mejores peliculas que he visto tambien, me gusta mucho el concepto. Mi totem seria un peon de ajedrez</p>
                 </li>
             </ul>
         </section>
     </div>
 
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través del siguiente correo:</p>
+        <h2 class="traducible">Contacto</h2>
+        <p class="traducible">Puedes contactarme a través del siguiente correo:</p>
         <p><strong>carlos.rios233537@potros.itson.edu.mx</strong></p>
-        <p>O a través de mis redes sociales:</p>
+        <p class="traducible">O a través de mis redes sociales:</p>
         <div class="social-links">
             <a href="https://instagram.com/carlos.rb_" class="social-link" target="_blank">
                 <i class="fab fa-instagram"></i>
